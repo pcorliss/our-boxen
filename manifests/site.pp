@@ -53,7 +53,6 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   # core modules, needed for most things
-  include dnsmasq
   include git
   include hub
   include nginx
@@ -79,7 +78,10 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'pstree',
+      'watch',
+      'wget'
     ]:
   }
 
