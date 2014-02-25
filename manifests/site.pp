@@ -78,6 +78,8 @@ node default {
   include chrome
   include firefox
 
+  include macvim
+
   # common, useful packages
   package {
     [

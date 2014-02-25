@@ -54,6 +54,7 @@ github "xquartz",    "1.1.0"
 github "python",     "1.3.0"
 github "chrome",     "1.1.2"
 github "firefox",    "1.1.8"
+github "macvim",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
