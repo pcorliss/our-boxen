@@ -76,6 +76,9 @@ node default {
   include python
   include python:virtualenvwrapper
 
+  include chrome
+  include firefox
+
   # common, useful packages
   package {
     [
